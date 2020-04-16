@@ -14,3 +14,6 @@ collections:
       - { name: date, label: Date, widget: datetime }
       - { name: title, label: Title }
       - { name: body, label: Body, widget: markdown }
+backend:
+  name: github
+  repo: chrisbremmer/gatsby-netlify-okta-blog
